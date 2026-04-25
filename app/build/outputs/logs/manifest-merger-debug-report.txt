@@ -1,0 +1,348 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:2:1-27:12
+MERGED from [androidx.compose.material3:material3-android:1.2.0] /home/romankozak/.gradle/caches/transforms-4/a78fd01cbf41585c210c207a41e14fb1/transformed/material3-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/fadd96a1f3c424b3632b406afcbd8d74/transformed/material-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/5526e0ae99900f1738de70e85500156b/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/8c196227fb382ff23364bf848866c0be/transformed/material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/b88cd64167d399d411883bf1a5b30b94/transformed/foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/60f5adbe32a6d177a56d0eda6bdf2265/transformed/animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/22ba7f2e0b64ee2dfa6dc648d75f39fd/transformed/foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/c7e006ff2ee958ca8921096441546bde/transformed/animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/26d6707ca4aa40b65c1611d58d0626c7/transformed/ui-tooling-data-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/5098208ab213eed179c35b66f1363181/transformed/ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/7395467bcc2830926bb4af0d49617644/transformed/ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/3dacb3083d0d5facb4b76038d07515a4/transformed/ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/b00ca1856a80818adc03f814f49546e6/transformed/ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/8910e211a37f9b3a0af592dc4932d006/transformed/ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/bed1e7755104bb0275612b1c9646357b/transformed/ui-tooling-release/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/ba191d3612f952359d67e49fe1c413f5/transformed/ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.1] /home/romankozak/.gradle/caches/transforms-4/8641bd2c953cf87114230c932d0fd86e/transformed/ui-test-manifest-1.6.1/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.activity:activity:1.8.2] /home/romankozak/.gradle/caches/transforms-4/567d2b70eb358748af0a0b4291f9ed9f/transformed/activity-1.8.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.8.2] /home/romankozak/.gradle/caches/transforms-4/f59f17cc6d4f6e97f6a5023c4e923c10/transformed/activity-ktx-1.8.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-compose:1.8.2] /home/romankozak/.gradle/caches/transforms-4/e610359dd368dc102fadb5d13c192a81/transformed/activity-compose-1.8.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/romankozak/.gradle/caches/transforms-4/aa6a4d40b4f92984c3bc15d0f0f7fd6b/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/romankozak/.gradle/caches/transforms-4/2c0815b48cd12153ca459bd4c8d29e03/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /home/romankozak/.gradle/caches/transforms-4/7852369bfc1f0a441ad4e937c03b2d46/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/romankozak/.gradle/caches/transforms-4/bb90cc6f4687ff4b7c04669362717527/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/romankozak/.gradle/caches/transforms-4/fb85405ee2587f549033458ed1a0c332/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /home/romankozak/.gradle/caches/transforms-4/20c7e5ea51e0af233f61ba2b786ab985/transformed/lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /home/romankozak/.gradle/caches/transforms-4/8aa9574227a82e9007afa6c16cd5ee80/transformed/lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /home/romankozak/.gradle/caches/transforms-4/3a8380ca866220a05e0719c1de3e9ac0/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /home/romankozak/.gradle/caches/transforms-4/c6d5befcf0238482b40dd7735a014757/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /home/romankozak/.gradle/caches/transforms-4/3d41aaf7298ee0dc620cf7b752364259/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0] /home/romankozak/.gradle/caches/transforms-4/5a7a3211d2ce38426446372b6157f704/transformed/lifecycle-viewmodel-compose-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/e7e72eff2b60895ee22952b9dd8bd9d6/transformed/ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.autofill:autofill:1.0.0] /home/romankozak/.gradle/caches/transforms-4/66cc1534b7169f2981d05f6d49c3864c/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.12.0] /home/romankozak/.gradle/caches/transforms-4/ed2597a9cf8c22d1f2c29bd3d5872445/transformed/core-1.12.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/romankozak/.gradle/caches/transforms-4/33c57ede82b4f1d82201d37b469f06ed/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.12.0] /home/romankozak/.gradle/caches/transforms-4/c4e8e9de13fc62a5ac756552498c7425/transformed/core-ktx-1.12.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.room:room-runtime:2.6.1] /home/romankozak/.gradle/caches/transforms-4/7c6ae1db0cdd449b04d387cb1b222e3e/transformed/room-runtime-2.6.1/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.room:room-ktx:2.6.1] /home/romankozak/.gradle/caches/transforms-4/1b4e8a5a80b24c79fac2d94000dfc63c/transformed/room-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /home/romankozak/.gradle/caches/transforms-4/fa18e48db70552baf451e30f7cb83d27/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.4.0] /home/romankozak/.gradle/caches/transforms-4/b5304551f5e0157ee6e92336186bcce5/transformed/sqlite-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/1d1893762ad4535b2d0a31dff01ae0d1/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/18213c80a9d3d7f08b8f2eb83c9431b6/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/romankozak/.gradle/caches/transforms-4/d804dc79d994d1d17dc548d2ee298a23/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/romankozak/.gradle/caches/transforms-4/c132eda1b8d9a586e75cc907781227a2/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/romankozak/.gradle/caches/transforms-4/8a31b2dada88db8f3aa0e5446898b79e/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/romankozak/.gradle/caches/transforms-4/364d54465230051d0228587b762f15bc/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/romankozak/.gradle/caches/transforms-4/8dbdc745caf5528f1b4786f6aee83458/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/romankozak/.gradle/caches/transforms-4/f35ff4fd423892d1a0a9854e7a9e4944/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+	package
+		INJECTED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:5:5-25:19
+INJECTED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:5:5-25:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/bed1e7755104bb0275612b1c9646357b/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/bed1e7755104bb0275612b1c9646357b/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.1] /home/romankozak/.gradle/caches/transforms-4/8641bd2c953cf87114230c932d0fd86e/transformed/ui-test-manifest-1.6.1/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.1] /home/romankozak/.gradle/caches/transforms-4/8641bd2c953cf87114230c932d0fd86e/transformed/ui-test-manifest-1.6.1/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/romankozak/.gradle/caches/transforms-4/aa6a4d40b4f92984c3bc15d0f0f7fd6b/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/romankozak/.gradle/caches/transforms-4/aa6a4d40b4f92984c3bc15d0f0f7fd6b/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/romankozak/.gradle/caches/transforms-4/2c0815b48cd12153ca459bd4c8d29e03/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/romankozak/.gradle/caches/transforms-4/2c0815b48cd12153ca459bd4c8d29e03/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.12.0] /home/romankozak/.gradle/caches/transforms-4/ed2597a9cf8c22d1f2c29bd3d5872445/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] /home/romankozak/.gradle/caches/transforms-4/ed2597a9cf8c22d1f2c29bd3d5872445/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.room:room-runtime:2.6.1] /home/romankozak/.gradle/caches/transforms-4/7c6ae1db0cdd449b04d387cb1b222e3e/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.6.1] /home/romankozak/.gradle/caches/transforms-4/7c6ae1db0cdd449b04d387cb1b222e3e/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/romankozak/.gradle/caches/transforms-4/c132eda1b8d9a586e75cc907781227a2/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/romankozak/.gradle/caches/transforms-4/c132eda1b8d9a586e75cc907781227a2/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/romankozak/.gradle/caches/transforms-4/8dbdc745caf5528f1b4786f6aee83458/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/romankozak/.gradle/caches/transforms-4/8dbdc745caf5528f1b4786f6aee83458/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.12.0] /home/romankozak/.gradle/caches/transforms-4/ed2597a9cf8c22d1f2c29bd3d5872445/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:8:9-35
+	android:label
+		ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:7:9-39
+	tools:targetApi
+		ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:9:9-29
+	android:allowBackup
+		ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:6:9-35
+activity#com.example.localbookmarks.MainActivity
+ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:10:9-24:20
+	android:launchMode
+		ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:13:13-44
+	android:exported
+		ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:12:13-36
+	android:name
+		ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:11:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:14:13-17:29
+action#android.intent.action.MAIN
+ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:15:17-69
+	android:name
+		ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:15:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:16:27-74
+intent-filter#action:name:android.intent.action.SEND+category:name:android.intent.category.DEFAULT+data:mimeType:text/plain
+ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:19:13-23:29
+action#android.intent.action.SEND
+ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:20:25-66
+category#android.intent.category.DEFAULT
+ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:21:17-76
+	android:name
+		ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:21:27-73
+data
+ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:22:17-55
+	android:mimeType
+		ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:22:23-52
+uses-sdk
+INJECTED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml
+INJECTED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml
+MERGED from [androidx.compose.material3:material3-android:1.2.0] /home/romankozak/.gradle/caches/transforms-4/a78fd01cbf41585c210c207a41e14fb1/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.2.0] /home/romankozak/.gradle/caches/transforms-4/a78fd01cbf41585c210c207a41e14fb1/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/fadd96a1f3c424b3632b406afcbd8d74/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/fadd96a1f3c424b3632b406afcbd8d74/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/5526e0ae99900f1738de70e85500156b/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/5526e0ae99900f1738de70e85500156b/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/8c196227fb382ff23364bf848866c0be/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/8c196227fb382ff23364bf848866c0be/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/b88cd64167d399d411883bf1a5b30b94/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/b88cd64167d399d411883bf1a5b30b94/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/60f5adbe32a6d177a56d0eda6bdf2265/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/60f5adbe32a6d177a56d0eda6bdf2265/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/22ba7f2e0b64ee2dfa6dc648d75f39fd/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/22ba7f2e0b64ee2dfa6dc648d75f39fd/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/c7e006ff2ee958ca8921096441546bde/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/c7e006ff2ee958ca8921096441546bde/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/26d6707ca4aa40b65c1611d58d0626c7/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/26d6707ca4aa40b65c1611d58d0626c7/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/5098208ab213eed179c35b66f1363181/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/5098208ab213eed179c35b66f1363181/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/7395467bcc2830926bb4af0d49617644/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/7395467bcc2830926bb4af0d49617644/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/3dacb3083d0d5facb4b76038d07515a4/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/3dacb3083d0d5facb4b76038d07515a4/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/b00ca1856a80818adc03f814f49546e6/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/b00ca1856a80818adc03f814f49546e6/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/8910e211a37f9b3a0af592dc4932d006/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/8910e211a37f9b3a0af592dc4932d006/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/bed1e7755104bb0275612b1c9646357b/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/bed1e7755104bb0275612b1c9646357b/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/ba191d3612f952359d67e49fe1c413f5/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/ba191d3612f952359d67e49fe1c413f5/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.1] /home/romankozak/.gradle/caches/transforms-4/8641bd2c953cf87114230c932d0fd86e/transformed/ui-test-manifest-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.1] /home/romankozak/.gradle/caches/transforms-4/8641bd2c953cf87114230c932d0fd86e/transformed/ui-test-manifest-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.2] /home/romankozak/.gradle/caches/transforms-4/567d2b70eb358748af0a0b4291f9ed9f/transformed/activity-1.8.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.2] /home/romankozak/.gradle/caches/transforms-4/567d2b70eb358748af0a0b4291f9ed9f/transformed/activity-1.8.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] /home/romankozak/.gradle/caches/transforms-4/f59f17cc6d4f6e97f6a5023c4e923c10/transformed/activity-ktx-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] /home/romankozak/.gradle/caches/transforms-4/f59f17cc6d4f6e97f6a5023c4e923c10/transformed/activity-ktx-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.8.2] /home/romankozak/.gradle/caches/transforms-4/e610359dd368dc102fadb5d13c192a81/transformed/activity-compose-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.8.2] /home/romankozak/.gradle/caches/transforms-4/e610359dd368dc102fadb5d13c192a81/transformed/activity-compose-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/romankozak/.gradle/caches/transforms-4/aa6a4d40b4f92984c3bc15d0f0f7fd6b/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/romankozak/.gradle/caches/transforms-4/aa6a4d40b4f92984c3bc15d0f0f7fd6b/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/romankozak/.gradle/caches/transforms-4/2c0815b48cd12153ca459bd4c8d29e03/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/romankozak/.gradle/caches/transforms-4/2c0815b48cd12153ca459bd4c8d29e03/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /home/romankozak/.gradle/caches/transforms-4/7852369bfc1f0a441ad4e937c03b2d46/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /home/romankozak/.gradle/caches/transforms-4/7852369bfc1f0a441ad4e937c03b2d46/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/romankozak/.gradle/caches/transforms-4/bb90cc6f4687ff4b7c04669362717527/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/romankozak/.gradle/caches/transforms-4/bb90cc6f4687ff4b7c04669362717527/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/romankozak/.gradle/caches/transforms-4/fb85405ee2587f549033458ed1a0c332/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/romankozak/.gradle/caches/transforms-4/fb85405ee2587f549033458ed1a0c332/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /home/romankozak/.gradle/caches/transforms-4/20c7e5ea51e0af233f61ba2b786ab985/transformed/lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /home/romankozak/.gradle/caches/transforms-4/20c7e5ea51e0af233f61ba2b786ab985/transformed/lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /home/romankozak/.gradle/caches/transforms-4/8aa9574227a82e9007afa6c16cd5ee80/transformed/lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /home/romankozak/.gradle/caches/transforms-4/8aa9574227a82e9007afa6c16cd5ee80/transformed/lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /home/romankozak/.gradle/caches/transforms-4/3a8380ca866220a05e0719c1de3e9ac0/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /home/romankozak/.gradle/caches/transforms-4/3a8380ca866220a05e0719c1de3e9ac0/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /home/romankozak/.gradle/caches/transforms-4/c6d5befcf0238482b40dd7735a014757/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /home/romankozak/.gradle/caches/transforms-4/c6d5befcf0238482b40dd7735a014757/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /home/romankozak/.gradle/caches/transforms-4/3d41aaf7298ee0dc620cf7b752364259/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /home/romankozak/.gradle/caches/transforms-4/3d41aaf7298ee0dc620cf7b752364259/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0] /home/romankozak/.gradle/caches/transforms-4/5a7a3211d2ce38426446372b6157f704/transformed/lifecycle-viewmodel-compose-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0] /home/romankozak/.gradle/caches/transforms-4/5a7a3211d2ce38426446372b6157f704/transformed/lifecycle-viewmodel-compose-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/e7e72eff2b60895ee22952b9dd8bd9d6/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/e7e72eff2b60895ee22952b9dd8bd9d6/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /home/romankozak/.gradle/caches/transforms-4/66cc1534b7169f2981d05f6d49c3864c/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /home/romankozak/.gradle/caches/transforms-4/66cc1534b7169f2981d05f6d49c3864c/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.12.0] /home/romankozak/.gradle/caches/transforms-4/ed2597a9cf8c22d1f2c29bd3d5872445/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] /home/romankozak/.gradle/caches/transforms-4/ed2597a9cf8c22d1f2c29bd3d5872445/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/romankozak/.gradle/caches/transforms-4/33c57ede82b4f1d82201d37b469f06ed/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/romankozak/.gradle/caches/transforms-4/33c57ede82b4f1d82201d37b469f06ed/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.12.0] /home/romankozak/.gradle/caches/transforms-4/c4e8e9de13fc62a5ac756552498c7425/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] /home/romankozak/.gradle/caches/transforms-4/c4e8e9de13fc62a5ac756552498c7425/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] /home/romankozak/.gradle/caches/transforms-4/7c6ae1db0cdd449b04d387cb1b222e3e/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] /home/romankozak/.gradle/caches/transforms-4/7c6ae1db0cdd449b04d387cb1b222e3e/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] /home/romankozak/.gradle/caches/transforms-4/1b4e8a5a80b24c79fac2d94000dfc63c/transformed/room-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] /home/romankozak/.gradle/caches/transforms-4/1b4e8a5a80b24c79fac2d94000dfc63c/transformed/room-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /home/romankozak/.gradle/caches/transforms-4/fa18e48db70552baf451e30f7cb83d27/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /home/romankozak/.gradle/caches/transforms-4/fa18e48db70552baf451e30f7cb83d27/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /home/romankozak/.gradle/caches/transforms-4/b5304551f5e0157ee6e92336186bcce5/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /home/romankozak/.gradle/caches/transforms-4/b5304551f5e0157ee6e92336186bcce5/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/1d1893762ad4535b2d0a31dff01ae0d1/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/1d1893762ad4535b2d0a31dff01ae0d1/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/18213c80a9d3d7f08b8f2eb83c9431b6/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/18213c80a9d3d7f08b8f2eb83c9431b6/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/romankozak/.gradle/caches/transforms-4/d804dc79d994d1d17dc548d2ee298a23/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/romankozak/.gradle/caches/transforms-4/d804dc79d994d1d17dc548d2ee298a23/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/romankozak/.gradle/caches/transforms-4/c132eda1b8d9a586e75cc907781227a2/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/romankozak/.gradle/caches/transforms-4/c132eda1b8d9a586e75cc907781227a2/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/romankozak/.gradle/caches/transforms-4/8a31b2dada88db8f3aa0e5446898b79e/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/romankozak/.gradle/caches/transforms-4/8a31b2dada88db8f3aa0e5446898b79e/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/romankozak/.gradle/caches/transforms-4/364d54465230051d0228587b762f15bc/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/romankozak/.gradle/caches/transforms-4/364d54465230051d0228587b762f15bc/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/romankozak/.gradle/caches/transforms-4/8dbdc745caf5528f1b4786f6aee83458/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/romankozak/.gradle/caches/transforms-4/8dbdc745caf5528f1b4786f6aee83458/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/romankozak/.gradle/caches/transforms-4/f35ff4fd423892d1a0a9854e7a9e4944/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/romankozak/.gradle/caches/transforms-4/f35ff4fd423892d1a0a9854e7a9e4944/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+	android:targetSdkVersion
+		INJECTED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/bed1e7755104bb0275612b1c9646357b/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/bed1e7755104bb0275612b1c9646357b/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/bed1e7755104bb0275612b1c9646357b/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+activity#androidx.activity.ComponentActivity
+ADDED from [androidx.compose.ui:ui-test-manifest:1.6.1] /home/romankozak/.gradle/caches/transforms-4/8641bd2c953cf87114230c932d0fd86e/transformed/ui-test-manifest-1.6.1/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.6.1] /home/romankozak/.gradle/caches/transforms-4/8641bd2c953cf87114230c932d0fd86e/transformed/ui-test-manifest-1.6.1/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.6.1] /home/romankozak/.gradle/caches/transforms-4/8641bd2c953cf87114230c932d0fd86e/transformed/ui-test-manifest-1.6.1/AndroidManifest.xml:24:13-63
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] /home/romankozak/.gradle/caches/transforms-4/aa6a4d40b4f92984c3bc15d0f0f7fd6b/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/romankozak/.gradle/caches/transforms-4/2c0815b48cd12153ca459bd4c8d29e03/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/romankozak/.gradle/caches/transforms-4/2c0815b48cd12153ca459bd4c8d29e03/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/romankozak/.gradle/caches/transforms-4/8dbdc745caf5528f1b4786f6aee83458/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/romankozak/.gradle/caches/transforms-4/8dbdc745caf5528f1b4786f6aee83458/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/romankozak/.gradle/caches/transforms-4/aa6a4d40b4f92984c3bc15d0f0f7fd6b/transformed/emoji2-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/romankozak/.gradle/caches/transforms-4/aa6a4d40b4f92984c3bc15d0f0f7fd6b/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/romankozak/.gradle/caches/transforms-4/aa6a4d40b4f92984c3bc15d0f0f7fd6b/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/romankozak/.gradle/caches/transforms-4/aa6a4d40b4f92984c3bc15d0f0f7fd6b/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /home/romankozak/.gradle/caches/transforms-4/aa6a4d40b4f92984c3bc15d0f0f7fd6b/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/romankozak/.gradle/caches/transforms-4/aa6a4d40b4f92984c3bc15d0f0f7fd6b/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/romankozak/.gradle/caches/transforms-4/aa6a4d40b4f92984c3bc15d0f0f7fd6b/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/romankozak/.gradle/caches/transforms-4/2c0815b48cd12153ca459bd4c8d29e03/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/romankozak/.gradle/caches/transforms-4/2c0815b48cd12153ca459bd4c8d29e03/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/romankozak/.gradle/caches/transforms-4/2c0815b48cd12153ca459bd4c8d29e03/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/romankozak/.gradle/caches/transforms-4/ed2597a9cf8c22d1f2c29bd3d5872445/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /home/romankozak/.gradle/caches/transforms-4/ed2597a9cf8c22d1f2c29bd3d5872445/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/romankozak/.gradle/caches/transforms-4/ed2597a9cf8c22d1f2c29bd3d5872445/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+permission#com.example.localbookmarks.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/romankozak/.gradle/caches/transforms-4/ed2597a9cf8c22d1f2c29bd3d5872445/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /home/romankozak/.gradle/caches/transforms-4/ed2597a9cf8c22d1f2c29bd3d5872445/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/romankozak/.gradle/caches/transforms-4/ed2597a9cf8c22d1f2c29bd3d5872445/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/romankozak/.gradle/caches/transforms-4/ed2597a9cf8c22d1f2c29bd3d5872445/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/romankozak/.gradle/caches/transforms-4/ed2597a9cf8c22d1f2c29bd3d5872445/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+uses-permission#com.example.localbookmarks.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/romankozak/.gradle/caches/transforms-4/ed2597a9cf8c22d1f2c29bd3d5872445/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/romankozak/.gradle/caches/transforms-4/ed2597a9cf8c22d1f2c29bd3d5872445/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.6.1] /home/romankozak/.gradle/caches/transforms-4/7c6ae1db0cdd449b04d387cb1b222e3e/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.6.1] /home/romankozak/.gradle/caches/transforms-4/7c6ae1db0cdd449b04d387cb1b222e3e/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.6.1] /home/romankozak/.gradle/caches/transforms-4/7c6ae1db0cdd449b04d387cb1b222e3e/transformed/room-runtime-2.6.1/AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.6.1] /home/romankozak/.gradle/caches/transforms-4/7c6ae1db0cdd449b04d387cb1b222e3e/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.6.1] /home/romankozak/.gradle/caches/transforms-4/7c6ae1db0cdd449b04d387cb1b222e3e/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92

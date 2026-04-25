@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LocalBookmarks</string>
+    <style name="Theme.LocalBookmarks" parent="android:Theme.Material.Light.NoActionBar"/>
+</resources>
