@@ -9,10 +9,15 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material.icons.filled.Edit
+import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material.icons.filled.Star
 import androidx.compose.material.icons.outlined.Star
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
+import org.jsoup.Jsoup
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
@@ -30,7 +35,25 @@ fun BookmarksScreen(viewModel: BookmarksViewModel) {
     var editingBookmark by remember { mutableStateOf<Bookmark?>(null) }
     val context = LocalContext.current
 
+    val snackbarHostState = remember { SnackbarHostState() }
+    val scope = rememberCoroutineScope()
+    val bookmarkPendingDeletion by viewModel.bookmarkPendingDeletion.collectAsState()
+
+    LaunchedEffect(bookmarkPendingDeletion) {
+        if (bookmarkPendingDeletion != null) {
+            val result = snackbarHostState.showSnackbar(
+                message = "Bookmark deleted",
+                actionLabel = "Undo",
+                duration = SnackbarDuration.Long
+            )
+            if (result == SnackbarResult.ActionPerformed) {
+                viewModel.undoDelete()
+            }
+        }
+    }
+
     Scaffold(
+        snackbarHost = { SnackbarHost(hostState = snackbarHostState) },
         topBar = {
             TopAppBar(
                 title = { Text("Local Bookmarks") },
@@ -179,18 +202,58 @@ fun EditBookmarkDialog(
     var title by remember { mutableStateOf(bookmark.title) }
     var comments by remember { mutableStateOf(bookmark.comments) }
     
+    val coroutineScope = rememberCoroutineScope()
+    var isFetching by remember { mutableStateOf(false) }
+
     AlertDialog(
         onDismissRequest = onDismiss,
         title = { Text("Edit Bookmark") },
         text = {
             Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                OutlinedTextField(
-                    value = title,
-                    onValueChange = { title = it },
-                    label = { Text("Title") },
-                    singleLine = true,
+                Row(
+                    verticalAlignment = Alignment.CenterVertically,
                     modifier = Modifier.fillMaxWidth()
-                )
+                ) {
+                    OutlinedTextField(
+                        value = title,
+                        onValueChange = { title = it },
+                        label = { Text("Title") },
+                        singleLine = true,
+                        modifier = Modifier.weight(1f)
+                    )
+                    IconButton(
+                        onClick = {
+                            if (bookmark.url.isNotBlank()) {
+                                isFetching = true
+                                coroutineScope.launch {
+                                    try {
+                                        val fetchedTitle = kotlinx.coroutines.withContext(kotlinx.coroutines.Dispatchers.IO) {
+                                            val document = org.jsoup.Jsoup.connect(bookmark.url)
+                                                .userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
+                                                .timeout(5000)
+                                                .get()
+                                            document.title().takeIf { it.isNotBlank() } ?: bookmark.url
+                                        }
+                                        if (!fetchedTitle.isNullOrBlank()) {
+                                            title = fetchedTitle
+                                        }
+                                    } catch (e: Exception) {
+                                        // Ignore error and keep old title
+                                    } finally {
+                                        isFetching = false
+                                    }
+                                }
+                            }
+                        },
+                        enabled = !isFetching
+                    ) {
+                        if (isFetching) {
+                            CircularProgressIndicator(modifier = Modifier.size(24.dp), strokeWidth = 2.dp)
+                        } else {
+                            Icon(imageVector = androidx.compose.material.icons.Icons.Default.Refresh, contentDescription = "Reload Title")
+                        }
+                    }
+                }
                 OutlinedTextField(
                     value = comments,
                     onValueChange = { comments = it },

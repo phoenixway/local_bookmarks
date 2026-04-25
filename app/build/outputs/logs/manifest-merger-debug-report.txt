@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:2:1-27:12
+ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:2:1-29:12
 MERGED from [androidx.compose.material3:material3-android:1.2.0] /home/romankozak/.gradle/caches/transforms-4/a78fd01cbf41585c210c207a41e14fb1/transformed/material3-release/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.material:material-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/fadd96a1f3c424b3632b406afcbd8d74/transformed/material-release/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.material:material-icons-core-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/5526e0ae99900f1738de70e85500156b/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
@@ -63,9 +63,13 @@ MERGED from [androidx.tracing:tracing:1.0.0] /home/romankozak/.gradle/caches/tra
 		INJECTED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:5:5-25:19
-INJECTED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:5:5-25:19
+ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:7:5-27:19
+INJECTED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:7:5-27:19
 MERGED from [androidx.compose.ui:ui-tooling-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/bed1e7755104bb0275612b1c9646357b/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.compose.ui:ui-tooling-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/bed1e7755104bb0275612b1c9646357b/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.compose.ui:ui-test-manifest:1.6.1] /home/romankozak/.gradle/caches/transforms-4/8641bd2c953cf87114230c932d0fd86e/transformed/ui-test-manifest-1.6.1/AndroidManifest.xml:22:5-26:19
@@ -89,45 +93,45 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /home/romankozak/.gradle/ca
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.12.0] /home/romankozak/.gradle/caches/transforms-4/ed2597a9cf8c22d1f2c29bd3d5872445/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:8:9-35
+		ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:7:9-39
+		ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:9:9-39
 	tools:targetApi
-		ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:9:9-29
+		ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:11:9-29
 	android:allowBackup
-		ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:8:9-35
 activity#com.example.localbookmarks.MainActivity
-ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:10:9-24:20
+ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:12:9-26:20
 	android:launchMode
-		ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:13:13-44
+		ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:15:13-44
 	android:exported
-		ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:12:13-36
+		ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:14:13-36
 	android:name
-		ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:11:13-41
+		ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:13:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:14:13-17:29
+ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:16:13-19:29
 action#android.intent.action.MAIN
-ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:15:17-69
+ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:15:25-66
+		ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:16:17-77
+ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:16:27-74
+		ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:18:27-74
 intent-filter#action:name:android.intent.action.SEND+category:name:android.intent.category.DEFAULT+data:mimeType:text/plain
-ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:19:13-23:29
+ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:21:13-25:29
 action#android.intent.action.SEND
-ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:20:17-69
+ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:20:25-66
+		ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:22:25-66
 category#android.intent.category.DEFAULT
-ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:21:17-76
+ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:23:17-76
 	android:name
-		ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:21:27-73
+		ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:23:27-73
 data
-ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:22:17-55
+ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:24:17-55
 	android:mimeType
-		ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:22:23-52
+		ADDED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:24:23-52
 uses-sdk
 INJECTED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml

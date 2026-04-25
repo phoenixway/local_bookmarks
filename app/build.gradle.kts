@@ -72,4 +72,7 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+    
+    // Jsoup for HTML parsing
+    implementation("org.jsoup:jsoup:1.17.2")
 }
