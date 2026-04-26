@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">LocalBookmarks</string>
-    <style name="Theme.LocalBookmarks" parent="android:Theme.Material.Light.NoActionBar"/>
+    <style name="Theme.LocalBookmarks" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">#FBF8FF</item>
+        <item name="android:statusBarColor">#FBF8FF</item>
+    </style>
 </resources>

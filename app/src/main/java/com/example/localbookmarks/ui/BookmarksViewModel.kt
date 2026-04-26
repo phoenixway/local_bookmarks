@@ -11,7 +11,6 @@ import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import org.jsoup.Jsoup
-
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -19,13 +18,38 @@ import kotlinx.coroutines.flow.asStateFlow
 
 class BookmarksViewModel(private val repository: BookmarkRepository) : ViewModel() {
 
+    private val _searchQuery = MutableStateFlow("")
+    val searchQuery = _searchQuery.asStateFlow()
+
+    fun onSearchQueryChange(query: String) {
+        _searchQuery.value = query
+    }
+
     private var deleteJob: Job? = null
 
     private val _bookmarkPendingDeletion = MutableStateFlow<Bookmark?>(null)
     val bookmarkPendingDeletion = _bookmarkPendingDeletion.asStateFlow()
 
-    val bookmarks = combine(repository.allBookmarks, _bookmarkPendingDeletion) { bookmarks, pending ->
-        if (pending != null) bookmarks.filter { it.id != pending.id } else bookmarks
+    val bookmarks = combine(
+        repository.allBookmarks,
+        _searchQuery,
+        _bookmarkPendingDeletion
+    ) { bookmarks, query, pending ->
+        val filteredBookmarks = if (query.isBlank()) {
+            bookmarks
+        } else {
+            val queryTags = query.split(" ").filter { it.isNotBlank() }
+            bookmarks.filter {
+                queryTags.all { queryTag ->
+                    it.title.contains(queryTag, ignoreCase = true) ||
+                    it.url.contains(queryTag, ignoreCase = true) ||
+                    it.comments.contains(queryTag, ignoreCase = true) ||
+                    it.tags.any { tag -> tag.contains(queryTag, ignoreCase = true) }
+                }
+            }
+        }
+        val nonPendingBookmarks = if (pending != null) filteredBookmarks.filter { it.id != pending.id } else filteredBookmarks
+        nonPendingBookmarks
     }.stateIn(
         scope = viewModelScope,
         started = SharingStarted.WhileSubscribed(5000),

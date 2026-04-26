@@ -31,12 +31,12 @@ public final class BookmarkDatabase_Impl extends BookmarkDatabase {
   @Override
   @NonNull
   protected SupportSQLiteOpenHelper createOpenHelper(@NonNull final DatabaseConfiguration config) {
-    final SupportSQLiteOpenHelper.Callback _openCallback = new RoomOpenHelper(config, new RoomOpenHelper.Delegate(1) {
+    final SupportSQLiteOpenHelper.Callback _openCallback = new RoomOpenHelper(config, new RoomOpenHelper.Delegate(3) {
       @Override
       public void createAllTables(@NonNull final SupportSQLiteDatabase db) {
-        db.execSQL("CREATE TABLE IF NOT EXISTS `bookmarks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `title` TEXT NOT NULL, `url` TEXT NOT NULL, `addingDatetime` INTEGER NOT NULL, `comments` TEXT NOT NULL, `rating` INTEGER NOT NULL)");
+        db.execSQL("CREATE TABLE IF NOT EXISTS `bookmarks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `title` TEXT NOT NULL, `url` TEXT NOT NULL, `addingDatetime` INTEGER NOT NULL, `comments` TEXT NOT NULL, `rating` INTEGER NOT NULL, `tags` TEXT NOT NULL)");
         db.execSQL("CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)");
-        db.execSQL("INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'b28cba749324ea6568c517f38e8afd09')");
+        db.execSQL("INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '475aa891a8b583993e499c99e39179b1')");
       }
 
       @Override
@@ -85,13 +85,14 @@ public final class BookmarkDatabase_Impl extends BookmarkDatabase {
       @NonNull
       public RoomOpenHelper.ValidationResult onValidateSchema(
           @NonNull final SupportSQLiteDatabase db) {
-        final HashMap<String, TableInfo.Column> _columnsBookmarks = new HashMap<String, TableInfo.Column>(6);
+        final HashMap<String, TableInfo.Column> _columnsBookmarks = new HashMap<String, TableInfo.Column>(7);
         _columnsBookmarks.put("id", new TableInfo.Column("id", "INTEGER", true, 1, null, TableInfo.CREATED_FROM_ENTITY));
         _columnsBookmarks.put("title", new TableInfo.Column("title", "TEXT", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
         _columnsBookmarks.put("url", new TableInfo.Column("url", "TEXT", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
         _columnsBookmarks.put("addingDatetime", new TableInfo.Column("addingDatetime", "INTEGER", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
         _columnsBookmarks.put("comments", new TableInfo.Column("comments", "TEXT", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
         _columnsBookmarks.put("rating", new TableInfo.Column("rating", "INTEGER", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
+        _columnsBookmarks.put("tags", new TableInfo.Column("tags", "TEXT", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
         final HashSet<TableInfo.ForeignKey> _foreignKeysBookmarks = new HashSet<TableInfo.ForeignKey>(0);
         final HashSet<TableInfo.Index> _indicesBookmarks = new HashSet<TableInfo.Index>(0);
         final TableInfo _infoBookmarks = new TableInfo("bookmarks", _columnsBookmarks, _foreignKeysBookmarks, _indicesBookmarks);
@@ -103,7 +104,7 @@ public final class BookmarkDatabase_Impl extends BookmarkDatabase {
         }
         return new RoomOpenHelper.ValidationResult(true, null);
       }
-    }, "b28cba749324ea6568c517f38e8afd09", "8526dc4ad30035b816ec138f15d2af9f");
+    }, "475aa891a8b583993e499c99e39179b1", "072c425dc93b0c1da31fed0f151b70d2");
     final SupportSQLiteOpenHelper.Configuration _sqliteConfig = SupportSQLiteOpenHelper.Configuration.builder(config.context).name(config.name).callback(_openCallback).build();
     final SupportSQLiteOpenHelper _helper = config.sqliteOpenHelperFactory.create(_sqliteConfig);
     return _helper;

@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "saved_at": 1777205668.3249345,
+  "entries": [
+    {
+      "id": "mb_cfc1f7a34c3c305f",
+      "kind": "fact",
+      "text": "The project's UI layer is located in `app/src/main/java/com/example/localbookmarks/ui/`, with `BookmarksScreen.kt` being the primary file for the main screen's UI.",
+      "scope": "intent",
+      "intent_id": "bookmark_tag_filter",
+      "source": "model",
+      "status": "active",
+      "created_at": 1777205668.3248658,
+      "updated_at": 1777205668.3248658,
+      "fingerprint": "56e92f5863b21035f2bdc8d0",
+      "supersedes": null,
+      "metadata": {
+        "attrs": {
+          "scope": "intent"
+        }
+      }
+    }
+  ]
+}

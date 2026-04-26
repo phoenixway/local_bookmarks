@@ -32,6 +32,8 @@ public final class BookmarkDao_Impl implements BookmarkDao {
 
   private final EntityInsertionAdapter<Bookmark> __insertionAdapterOfBookmark;
 
+  private final Converters __converters = new Converters();
+
   private final EntityDeletionOrUpdateAdapter<Bookmark> __deletionAdapterOfBookmark;
 
   private final EntityDeletionOrUpdateAdapter<Bookmark> __updateAdapterOfBookmark;
@@ -42,7 +44,7 @@ public final class BookmarkDao_Impl implements BookmarkDao {
       @Override
       @NonNull
       protected String createQuery() {
-        return "INSERT OR ABORT INTO `bookmarks` (`id`,`title`,`url`,`addingDatetime`,`comments`,`rating`) VALUES (nullif(?, 0),?,?,?,?,?)";
+        return "INSERT OR ABORT INTO `bookmarks` (`id`,`title`,`url`,`addingDatetime`,`comments`,`rating`,`tags`) VALUES (nullif(?, 0),?,?,?,?,?,?)";
       }
 
       @Override
@@ -54,6 +56,8 @@ public final class BookmarkDao_Impl implements BookmarkDao {
         statement.bindLong(4, entity.getAddingDatetime());
         statement.bindString(5, entity.getComments());
         statement.bindLong(6, entity.getRating());
+        final String _tmp = __converters.fromList(entity.getTags());
+        statement.bindString(7, _tmp);
       }
     };
     this.__deletionAdapterOfBookmark = new EntityDeletionOrUpdateAdapter<Bookmark>(__db) {
@@ -73,7 +77,7 @@ public final class BookmarkDao_Impl implements BookmarkDao {
       @Override
       @NonNull
       protected String createQuery() {
-        return "UPDATE OR ABORT `bookmarks` SET `id` = ?,`title` = ?,`url` = ?,`addingDatetime` = ?,`comments` = ?,`rating` = ? WHERE `id` = ?";
+        return "UPDATE OR ABORT `bookmarks` SET `id` = ?,`title` = ?,`url` = ?,`addingDatetime` = ?,`comments` = ?,`rating` = ?,`tags` = ? WHERE `id` = ?";
       }
 
       @Override
@@ -85,7 +89,9 @@ public final class BookmarkDao_Impl implements BookmarkDao {
         statement.bindLong(4, entity.getAddingDatetime());
         statement.bindString(5, entity.getComments());
         statement.bindLong(6, entity.getRating());
-        statement.bindLong(7, entity.getId());
+        final String _tmp = __converters.fromList(entity.getTags());
+        statement.bindString(7, _tmp);
+        statement.bindLong(8, entity.getId());
       }
     };
   }
@@ -160,6 +166,7 @@ public final class BookmarkDao_Impl implements BookmarkDao {
           final int _cursorIndexOfAddingDatetime = CursorUtil.getColumnIndexOrThrow(_cursor, "addingDatetime");
           final int _cursorIndexOfComments = CursorUtil.getColumnIndexOrThrow(_cursor, "comments");
           final int _cursorIndexOfRating = CursorUtil.getColumnIndexOrThrow(_cursor, "rating");
+          final int _cursorIndexOfTags = CursorUtil.getColumnIndexOrThrow(_cursor, "tags");
           final List<Bookmark> _result = new ArrayList<Bookmark>(_cursor.getCount());
           while (_cursor.moveToNext()) {
             final Bookmark _item;
@@ -175,7 +182,11 @@ public final class BookmarkDao_Impl implements BookmarkDao {
             _tmpComments = _cursor.getString(_cursorIndexOfComments);
             final int _tmpRating;
             _tmpRating = _cursor.getInt(_cursorIndexOfRating);
-            _item = new Bookmark(_tmpId,_tmpTitle,_tmpUrl,_tmpAddingDatetime,_tmpComments,_tmpRating);
+            final List<String> _tmpTags;
+            final String _tmp;
+            _tmp = _cursor.getString(_cursorIndexOfTags);
+            _tmpTags = __converters.fromString(_tmp);
+            _item = new Bookmark(_tmpId,_tmpTitle,_tmpUrl,_tmpAddingDatetime,_tmpComments,_tmpRating,_tmpTags);
             _result.add(_item);
           }
           return _result;

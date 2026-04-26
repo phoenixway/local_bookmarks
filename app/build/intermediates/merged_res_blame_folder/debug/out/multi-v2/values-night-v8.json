@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.localbookmarks.app-mergeDebugResources-47:/values-night-v8/values-night-v8.xml",
+            "map": [
+                {
+                    "source": "/home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/res/values-night/themes.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "56",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "452"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "451"
+                    }
+                }
+            ]
+        }
+    ]
+}

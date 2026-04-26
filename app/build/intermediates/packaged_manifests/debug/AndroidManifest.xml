@@ -22,7 +22,8 @@
         android:debuggable="true"
         android:extractNativeLibs="false"
         android:label="LocalBookmarks"
-        android:supportsRtl="true" >
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LocalBookmarks" >
         <activity
             android:name="com.example.localbookmarks.MainActivity"
             android:exported="true"

@@ -15,6 +15,7 @@ import com.example.localbookmarks.data.BookmarkDatabase
 import com.example.localbookmarks.data.BookmarkRepository
 import com.example.localbookmarks.ui.BookmarksScreen
 import com.example.localbookmarks.ui.BookmarksViewModel
+import com.example.localbookmarks.ui.theme.LocalBookmarksTheme
 
 class MainActivity : ComponentActivity() {
 
@@ -39,14 +40,14 @@ class MainActivity : ComponentActivity() {
         handleIntent(intent)
         
         setContent {
-            MaterialTheme {
-                Surface(
-                    modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colorScheme.background
-                ) {
-                    BookmarksScreen(viewModel = viewModel)
-                }
-            }
+            LocalBookmarksTheme {
+    Surface(
+        modifier = Modifier.fillMaxSize(),
+        color = MaterialTheme.colorScheme.background
+    ) {
+        BookmarksScreen(viewModel = viewModel)
+    }
+}
         }
     }
     
