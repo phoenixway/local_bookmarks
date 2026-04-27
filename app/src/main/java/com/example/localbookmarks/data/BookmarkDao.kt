@@ -9,7 +9,7 @@ import kotlinx.coroutines.flow.Flow
 
 @Dao
 interface BookmarkDao {
-    @Query("SELECT * FROM bookmarks ORDER BY addingDatetime DESC")
+    @Query("SELECT * FROM bookmarks ORDER BY rating DESC, addingDatetime DESC")
     fun getAllBookmarks(): Flow<List<Bookmark>>
 
     @Insert

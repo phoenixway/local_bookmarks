@@ -152,7 +152,7 @@ public final class BookmarkDao_Impl implements BookmarkDao {
 
   @Override
   public Flow<List<Bookmark>> getAllBookmarks() {
-    final String _sql = "SELECT * FROM bookmarks ORDER BY addingDatetime DESC";
+    final String _sql = "SELECT * FROM bookmarks ORDER BY rating DESC, addingDatetime DESC";
     final RoomSQLiteQuery _statement = RoomSQLiteQuery.acquire(_sql, 0);
     return CoroutinesRoom.createFlow(__db, false, new String[] {"bookmarks"}, new Callable<List<Bookmark>>() {
       @Override
