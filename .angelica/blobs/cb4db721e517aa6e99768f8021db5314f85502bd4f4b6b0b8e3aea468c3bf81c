@@ -1,0 +1,49 @@
+package com.example.localbookmarks
+
+import android.app.Activity
+import android.content.Intent
+import android.os.Bundle
+import android.widget.Toast
+import androidx.lifecycle.lifecycleScope
+import kotlinx.coroutines.launch
+
+class ShareReceiverActivity : Activity() {
+
+    private lateinit var repository: BookmarkRepository
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+
+        val db = BookmarkDatabase.getDatabase(applicationContext)
+        repository = BookmarkRepository(db.bookmarkDao())
+
+        if (intent?.action == Intent.ACTION_SEND && intent.type == "text/plain") {
+            handleShareIntent(intent)
+        } else {
+            finish() // Not a share intent, close immediately
+        }
+    }
+
+    private fun handleShareIntent(intent: Intent) {
+        intent.getStringExtra(Intent.EXTRA_TEXT)?.let { sharedText ->
+            val url = extractUrl(sharedText)
+            if (url != null) {
+                lifecycleScope.launch {
+                    repository.addBookmark(Bookmark(url = url))
+                    Toast.makeText(applicationContext, "Bookmark added", Toast.LENGTH_SHORT).show()
+                    finish() // Finish after the operation is complete
+                }
+            } else {
+                Toast.makeText(this, "No URL found in shared text", Toast.LENGTH_SHORT).show()
+                finish()
+            }
+        } ?: run {
+            finish()
+        }
+    }
+
+    private fun extractUrl(text: String): String? {
+        val urlRegex = "https?://[^\\s]+".toRegex()
+        return urlRegex.find(text)?.value
+    }
+}

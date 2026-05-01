@@ -1,6 +1,5 @@
 package com.example.localbookmarks
 
-import android.content.Intent
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -36,34 +35,14 @@ class MainActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        
-        handleIntent(intent)
-        
+
         setContent {
             LocalBookmarksTheme {
-    Surface(
-        modifier = Modifier.fillMaxSize(),
-        color = MaterialTheme.colorScheme.background
-    ) {
-        BookmarksScreen(viewModel = viewModel)
-    }
-}
-        }
-    }
-    
-    override fun onNewIntent(intent: Intent?) {
-        super.onNewIntent(intent)
-        intent?.let { handleIntent(it) }
-    }
-
-    private fun handleIntent(intent: Intent) {
-        if (intent.action == Intent.ACTION_SEND && intent.type == "text/plain") {
-            val sharedText = intent.getStringExtra(Intent.EXTRA_TEXT)
-            if (sharedText != null) {
-                val urlRegex = "https?://[^\\s]+".toRegex()
-                val matchResult = urlRegex.find(sharedText)
-                if (matchResult != null) {
-                    viewModel.addSharedBookmark(matchResult.value)
+                Surface(
+                    modifier = Modifier.fillMaxSize(),
+                    color = MaterialTheme.colorScheme.background
+                ) {
+                    BookmarksScreen(viewModel = viewModel)
                 }
             }
         }

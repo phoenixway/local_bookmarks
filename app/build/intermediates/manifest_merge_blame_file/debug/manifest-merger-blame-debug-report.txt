@@ -24,7 +24,7 @@
 17-->[androidx.core:core:1.12.0] /home/romankozak/.gradle/caches/transforms-4/ed2597a9cf8c22d1f2c29bd3d5872445/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
 18
 19    <application
-19-->/home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:7:5-31:19
+19-->/home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:7:5-36:19
 20        android:allowBackup="true"
 20-->/home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:8:9-35
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -38,7 +38,7 @@
 26        android:theme="@style/Theme.LocalBookmarks" >
 26-->/home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:11:9-52
 27        <activity
-27-->/home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:14:9-30:20
+27-->/home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:14:9-24:20
 28            android:name="com.example.localbookmarks.MainActivity"
 28-->/home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:15:13-41
 29            android:exported="true"
@@ -55,108 +55,117 @@
 34-->/home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:21:17-77
 34-->/home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:21:27-74
 35            </intent-filter>
-36            <intent-filter>
-36-->/home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:24:13-28:29
-37                <action android:name="android.intent.action.SEND" />
-37-->/home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:25:17-69
-37-->/home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:25:25-66
-38
-39                <category android:name="android.intent.category.DEFAULT" />
-39-->/home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:26:17-76
-39-->/home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:26:27-73
-40
-41                <data android:mimeType="text/plain" />
-41-->/home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:27:17-55
-41-->/home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:27:23-52
-42            </intent-filter>
-43        </activity>
-44        <activity
-44-->[androidx.compose.ui:ui-tooling-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/bed1e7755104bb0275612b1c9646357b/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
-45            android:name="androidx.compose.ui.tooling.PreviewActivity"
-45-->[androidx.compose.ui:ui-tooling-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/bed1e7755104bb0275612b1c9646357b/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
-46            android:exported="true" />
-46-->[androidx.compose.ui:ui-tooling-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/bed1e7755104bb0275612b1c9646357b/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
-47        <activity
-47-->[androidx.compose.ui:ui-test-manifest:1.6.1] /home/romankozak/.gradle/caches/transforms-4/8641bd2c953cf87114230c932d0fd86e/transformed/ui-test-manifest-1.6.1/AndroidManifest.xml:23:9-25:39
-48            android:name="androidx.activity.ComponentActivity"
-48-->[androidx.compose.ui:ui-test-manifest:1.6.1] /home/romankozak/.gradle/caches/transforms-4/8641bd2c953cf87114230c932d0fd86e/transformed/ui-test-manifest-1.6.1/AndroidManifest.xml:24:13-63
-49            android:exported="true" />
-49-->[androidx.compose.ui:ui-test-manifest:1.6.1] /home/romankozak/.gradle/caches/transforms-4/8641bd2c953cf87114230c932d0fd86e/transformed/ui-test-manifest-1.6.1/AndroidManifest.xml:25:13-36
-50
-51        <provider
-51-->[androidx.emoji2:emoji2:1.3.0] /home/romankozak/.gradle/caches/transforms-4/aa6a4d40b4f92984c3bc15d0f0f7fd6b/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
-52            android:name="androidx.startup.InitializationProvider"
-52-->[androidx.emoji2:emoji2:1.3.0] /home/romankozak/.gradle/caches/transforms-4/aa6a4d40b4f92984c3bc15d0f0f7fd6b/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
-53            android:authorities="com.example.localbookmarks.androidx-startup"
-53-->[androidx.emoji2:emoji2:1.3.0] /home/romankozak/.gradle/caches/transforms-4/aa6a4d40b4f92984c3bc15d0f0f7fd6b/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
-54            android:exported="false" >
-54-->[androidx.emoji2:emoji2:1.3.0] /home/romankozak/.gradle/caches/transforms-4/aa6a4d40b4f92984c3bc15d0f0f7fd6b/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
-55            <meta-data
-55-->[androidx.emoji2:emoji2:1.3.0] /home/romankozak/.gradle/caches/transforms-4/aa6a4d40b4f92984c3bc15d0f0f7fd6b/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
-56                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-56-->[androidx.emoji2:emoji2:1.3.0] /home/romankozak/.gradle/caches/transforms-4/aa6a4d40b4f92984c3bc15d0f0f7fd6b/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
-57                android:value="androidx.startup" />
-57-->[androidx.emoji2:emoji2:1.3.0] /home/romankozak/.gradle/caches/transforms-4/aa6a4d40b4f92984c3bc15d0f0f7fd6b/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
-58            <meta-data
-58-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/romankozak/.gradle/caches/transforms-4/2c0815b48cd12153ca459bd4c8d29e03/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
-59                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-59-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/romankozak/.gradle/caches/transforms-4/2c0815b48cd12153ca459bd4c8d29e03/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
-60                android:value="androidx.startup" />
-60-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/romankozak/.gradle/caches/transforms-4/2c0815b48cd12153ca459bd4c8d29e03/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
-61            <meta-data
-61-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
-62                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-62-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
-63                android:value="androidx.startup" />
-63-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
-64        </provider>
-65
-66        <service
-66-->[androidx.room:room-runtime:2.6.1] /home/romankozak/.gradle/caches/transforms-4/7c6ae1db0cdd449b04d387cb1b222e3e/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
-67            android:name="androidx.room.MultiInstanceInvalidationService"
-67-->[androidx.room:room-runtime:2.6.1] /home/romankozak/.gradle/caches/transforms-4/7c6ae1db0cdd449b04d387cb1b222e3e/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
-68            android:directBootAware="true"
-68-->[androidx.room:room-runtime:2.6.1] /home/romankozak/.gradle/caches/transforms-4/7c6ae1db0cdd449b04d387cb1b222e3e/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
-69            android:exported="false" />
-69-->[androidx.room:room-runtime:2.6.1] /home/romankozak/.gradle/caches/transforms-4/7c6ae1db0cdd449b04d387cb1b222e3e/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+36        </activity>
+37        <activity
+37-->/home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:26:9-35:20
+38            android:name="com.example.localbookmarks.ShareReceiverActivity"
+38-->/home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:27:13-50
+39            android:exported="true"
+39-->/home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:28:13-36
+40            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+40-->/home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:29:13-72
+41            <intent-filter>
+41-->/home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:30:13-34:29
+42                <action android:name="android.intent.action.SEND" />
+42-->/home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:31:17-69
+42-->/home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:31:25-66
+43
+44                <category android:name="android.intent.category.DEFAULT" />
+44-->/home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:32:17-76
+44-->/home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:32:27-73
+45
+46                <data android:mimeType="text/plain" />
+46-->/home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:33:17-55
+46-->/home/romankozak/studio/public/it/local-bookmarks/LocalBookmarks/app/src/main/AndroidManifest.xml:33:23-52
+47            </intent-filter>
+48        </activity>
+49        <activity
+49-->[androidx.compose.ui:ui-tooling-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/bed1e7755104bb0275612b1c9646357b/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+50            android:name="androidx.compose.ui.tooling.PreviewActivity"
+50-->[androidx.compose.ui:ui-tooling-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/bed1e7755104bb0275612b1c9646357b/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+51            android:exported="true" />
+51-->[androidx.compose.ui:ui-tooling-android:1.6.1] /home/romankozak/.gradle/caches/transforms-4/bed1e7755104bb0275612b1c9646357b/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+52        <activity
+52-->[androidx.compose.ui:ui-test-manifest:1.6.1] /home/romankozak/.gradle/caches/transforms-4/8641bd2c953cf87114230c932d0fd86e/transformed/ui-test-manifest-1.6.1/AndroidManifest.xml:23:9-25:39
+53            android:name="androidx.activity.ComponentActivity"
+53-->[androidx.compose.ui:ui-test-manifest:1.6.1] /home/romankozak/.gradle/caches/transforms-4/8641bd2c953cf87114230c932d0fd86e/transformed/ui-test-manifest-1.6.1/AndroidManifest.xml:24:13-63
+54            android:exported="true" />
+54-->[androidx.compose.ui:ui-test-manifest:1.6.1] /home/romankozak/.gradle/caches/transforms-4/8641bd2c953cf87114230c932d0fd86e/transformed/ui-test-manifest-1.6.1/AndroidManifest.xml:25:13-36
+55
+56        <provider
+56-->[androidx.emoji2:emoji2:1.3.0] /home/romankozak/.gradle/caches/transforms-4/aa6a4d40b4f92984c3bc15d0f0f7fd6b/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+57            android:name="androidx.startup.InitializationProvider"
+57-->[androidx.emoji2:emoji2:1.3.0] /home/romankozak/.gradle/caches/transforms-4/aa6a4d40b4f92984c3bc15d0f0f7fd6b/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+58            android:authorities="com.example.localbookmarks.androidx-startup"
+58-->[androidx.emoji2:emoji2:1.3.0] /home/romankozak/.gradle/caches/transforms-4/aa6a4d40b4f92984c3bc15d0f0f7fd6b/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+59            android:exported="false" >
+59-->[androidx.emoji2:emoji2:1.3.0] /home/romankozak/.gradle/caches/transforms-4/aa6a4d40b4f92984c3bc15d0f0f7fd6b/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+60            <meta-data
+60-->[androidx.emoji2:emoji2:1.3.0] /home/romankozak/.gradle/caches/transforms-4/aa6a4d40b4f92984c3bc15d0f0f7fd6b/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+61                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+61-->[androidx.emoji2:emoji2:1.3.0] /home/romankozak/.gradle/caches/transforms-4/aa6a4d40b4f92984c3bc15d0f0f7fd6b/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+62                android:value="androidx.startup" />
+62-->[androidx.emoji2:emoji2:1.3.0] /home/romankozak/.gradle/caches/transforms-4/aa6a4d40b4f92984c3bc15d0f0f7fd6b/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+63            <meta-data
+63-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/romankozak/.gradle/caches/transforms-4/2c0815b48cd12153ca459bd4c8d29e03/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+64                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+64-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/romankozak/.gradle/caches/transforms-4/2c0815b48cd12153ca459bd4c8d29e03/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+65                android:value="androidx.startup" />
+65-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/romankozak/.gradle/caches/transforms-4/2c0815b48cd12153ca459bd4c8d29e03/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+66            <meta-data
+66-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+67                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+67-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+68                android:value="androidx.startup" />
+68-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+69        </provider>
 70
-71        <receiver
-71-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
-72            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-72-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
-73            android:directBootAware="false"
-73-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
-74            android:enabled="true"
-74-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
-75            android:exported="true"
-75-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
-76            android:permission="android.permission.DUMP" >
-76-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
-77            <intent-filter>
-77-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
-78                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-78-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
-78-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
-79            </intent-filter>
-80            <intent-filter>
-80-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
-81                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-81-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
-81-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
-82            </intent-filter>
-83            <intent-filter>
-83-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
-84                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-84-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
-84-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
-85            </intent-filter>
-86            <intent-filter>
-86-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
-87                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-87-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
-87-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
-88            </intent-filter>
-89        </receiver>
-90    </application>
-91
-92</manifest>
+71        <service
+71-->[androidx.room:room-runtime:2.6.1] /home/romankozak/.gradle/caches/transforms-4/7c6ae1db0cdd449b04d387cb1b222e3e/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+72            android:name="androidx.room.MultiInstanceInvalidationService"
+72-->[androidx.room:room-runtime:2.6.1] /home/romankozak/.gradle/caches/transforms-4/7c6ae1db0cdd449b04d387cb1b222e3e/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+73            android:directBootAware="true"
+73-->[androidx.room:room-runtime:2.6.1] /home/romankozak/.gradle/caches/transforms-4/7c6ae1db0cdd449b04d387cb1b222e3e/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+74            android:exported="false" />
+74-->[androidx.room:room-runtime:2.6.1] /home/romankozak/.gradle/caches/transforms-4/7c6ae1db0cdd449b04d387cb1b222e3e/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+75
+76        <receiver
+76-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+77            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+77-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+78            android:directBootAware="false"
+78-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+79            android:enabled="true"
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+80            android:exported="true"
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+81            android:permission="android.permission.DUMP" >
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+82            <intent-filter>
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+83                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+84            </intent-filter>
+85            <intent-filter>
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+86                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+87            </intent-filter>
+88            <intent-filter>
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+89                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+90            </intent-filter>
+91            <intent-filter>
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+92                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/romankozak/.gradle/caches/transforms-4/8e621d6eb2830ebbe793b6f7c7e4df6a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+93            </intent-filter>
+94        </receiver>
+95    </application>
+96
+97</manifest>

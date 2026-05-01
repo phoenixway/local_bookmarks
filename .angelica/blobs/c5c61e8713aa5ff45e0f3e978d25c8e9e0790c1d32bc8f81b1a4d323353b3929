@@ -1,0 +1,52 @@
+package com.example.localbookmarks
+
+import android.app.Activity
+import android.content.Intent
+import android.os.Bundle
+import android.widget.Toast
+import com.example.localbookmarks.data.Bookmark
+import com.example.localbookmarks.data.BookmarkDatabase
+import com.example.localbookmarks.data.BookmarkRepository
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+
+class ShareReceiverActivity : Activity() {
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+
+        if (intent?.action == Intent.ACTION_SEND && "text/plain" == intent.type) {
+            handleShareIntent(intent)
+        } else {
+            finish()
+        }
+    }
+
+    private fun handleShareIntent(intent: Intent) {
+        intent.getStringExtra(Intent.EXTRA_TEXT)?.let { sharedText ->
+            val url = extractUrl(sharedText)
+            if (url != null) {
+                // Use a dedicated CoroutineScope that is not tied to the Activity's lifecycle
+                // to ensure the database operation completes even if the activity is finished.
+                CoroutineScope(Dispatchers.IO).launch {
+                    val db = BookmarkDatabase.getDatabase(applicationContext)
+                    val repository = BookmarkRepository(db.bookmarkDao())
+                    repository.addBookmark(Bookmark(url = url))
+                }
+                Toast.makeText(applicationContext, "Bookmark added", Toast.LENGTH_SHORT).show()
+            } else {
+                Toast.makeText(this, "No URL found in shared text", Toast.LENGTH_SHORT).show()
+            }
+        }
+        // Finish the activity immediately after handling the intent
+        finish()
+    }
+
+    private fun extractUrl(text: String): String? {
+        // This regex is a simple version and might not cover all URL variants.
+        // For a production app, a more robust URL validation library would be better.
+        val urlRegex = "(?i)\\b((?:https?|ftp)://[\\w/.-]+(?:\\?[^\\s]*)?)".toRegex()
+        return urlRegex.find(text)?.value
+    }
+}

@@ -1,0 +1,54 @@
+package com.example.localbookmarks
+
+import android.app.Activity
+import android.content.Intent
+import android.os.Bundle
+import android.widget.Toast
+import com.example.localbookmarks.data.Bookmark
+import com.example.localbookmarks.data.BookmarkDatabase
+import com.example.localbookmarks.data.BookmarkRepository
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+
+class ShareReceiverActivity : Activity() {
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+
+        if (intent?.action == Intent.ACTION_SEND && "text/plain" == intent.type) {
+            handleShareIntent(intent)
+        } else {
+            finish()
+        }
+    }
+
+    private fun handleShareIntent(intent: Intent) {
+        intent.getStringExtra(Intent.EXTRA_TEXT)?.let { sharedText ->
+            val url = extractUrl(sharedText)
+            if (url != null) {
+                CoroutineScope(Dispatchers.IO).launch {
+                    val db = BookmarkDatabase.getDatabase(applicationContext)
+                    val repository = BookmarkRepository(db.bookmarkDao())
+                    val bookmark = Bookmark(
+                        title = url, // Using URL as a placeholder for title
+                        url = url,
+                        addingDatetime = System.currentTimeMillis(),
+                        comments = "",
+                        rating = 0
+                    )
+                    repository.insert(bookmark)
+                }
+                Toast.makeText(applicationContext, "Bookmark added", Toast.LENGTH_SHORT).show()
+            } else {
+                Toast.makeText(this, "No URL found in shared text", Toast.LENGTH_SHORT).show()
+            }
+        }
+        finish()
+    }
+
+    private fun extractUrl(text: String): String? {
+        val urlRegex = "(?i)\\b((?:https?|ftp)://[\\w/.-]+(?:\\?[^\\s]*)?)".toRegex()
+        return urlRegex.find(text)?.value
+    }
+}
